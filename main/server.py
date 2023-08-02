@@ -55,7 +55,7 @@ def load_model(name):
 
 @app.route('/compute', methods=['POST'])
 def compute():
-    MODEL = "SVM" 
+    MODEL = "ANN" 
     client_data = request.get_json()
     # if client_data is None:
     #     print('Failed to parse JSON')
